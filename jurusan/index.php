@@ -47,15 +47,16 @@
             <div class="card-body">
                 <!-- TABLE DOSEN -->
                 <table class="table table-striped">
-                    <thead>
+                    <thead class="text-center">
                         <tr>
                         <th scope="col">No</th>
                         <th scope="col">Kode Jurusan</th>
                         <th scope="col">Jurusan</th>
+                        <th scope="col">Aksi</th>
                         </tr>
                     </thead>
                     
-                    <tbody>
+                    <tbody class="text-center">
                         <?php
                             include'../database.php';
                             $jurusan =  new Jurusan();
